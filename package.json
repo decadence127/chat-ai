@@ -1,0 +1,29 @@
+{
+  "name": "chat-ai",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./src/index.js",
+    "start:increased": "node --max-old-space-size=4000 ./src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/decadence127/chat-ai.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/decadence127/chat-ai/issues"
+  },
+  "homepage": "https://github.com/decadence127/chat-ai#readme",
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "cors": "^2.8.5",
+    "csvtojson": "^2.0.10",
+    "express": "^4.18.2",
+    "natural": "^6.1.4"
+  }
+}
